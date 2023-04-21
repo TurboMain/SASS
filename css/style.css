@@ -1,0 +1,21 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+body header {
+  background-image: url(../img/header.jpg);
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body header .navbar--blue {
+  background-color: rgb(113, 113, 230);
+}
+
+@media (min-width: 768px) {
+  body header {
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
